@@ -1,0 +1,42 @@
+// generate qr code for systems...
+
+// show a piechart for department wise room
+
+products:
+{
+labID: "",
+data: [
+    {
+        
+        category: "computer",
+        productID: "a70",
+        productName: "dell",
+        productHealth: "100%"
+    },
+    {
+        
+        category: "mouse chair keyboard",
+        productID: "",
+        productName: "",
+        count: ""
+    }
+]
+}
+services:
+[
+    {
+        serviceID: ""
+        labID: ""
+        productID: ""
+        service details...
+    }
+]
+
+categories: [Computer, CPU, Mouse, Keyboard, Chairs, Router, SmartBoard, ]
+
+{
+    {
+        category: 
+        count: 
+    }
+}

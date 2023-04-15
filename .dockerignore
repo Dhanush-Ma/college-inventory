@@ -1,0 +1,18 @@
+node_modules
+
+async function login(e){
+  e.preventDefault()
+  await signInWithEmailAndPassword(auth, "iamdha@gmail.com", "123456")
+}
+
+
+async function logout(e){
+  e.preventDefault()
+  await signOut(auth)
+}
+
+async function google(e){
+  e.preventDefault()
+  await signInWithPopup(auth, googleProvider).then(data => console.log(data))
+
+}
